@@ -1118,7 +1118,7 @@ namespace GUI {
 
                 if (contentBottom < 100.0f) contentBottom = 100.0f;
 
-                calculatedContentHeight = ImGui::GetCursorPosY() + 10.0f;
+                calculatedContentHeight = ImGui::GetCursorPosY() + 15.0f;
 
                 ImGui::EndChild();
                 ImGui::PopStyleVar();
@@ -1239,7 +1239,7 @@ namespace GUI {
             ImGui::SameLine();
 
             ImGui::PushStyleColor(ImGuiCol_ChildBg, ImVec4(0.02f, 0.02f, 0.04f, 0.3f));
-            ImGui::BeginChild("Breadcrumbs", ImVec2(availableWidth - arrowBtnWidth * 2 - 10, 26), false, ImGuiWindowFlags_HorizontalScrollbar | ImGuiWindowFlags_NoScrollbar);
+            ImGui::BeginChild("Breadcrumbs", ImVec2(availableWidth - arrowBtnWidth * 2 - 10, 22), false, ImGuiWindowFlags_HorizontalScrollbar | ImGuiWindowFlags_NoScrollbar);
 
             float currentScroll = ImGui::GetScrollX();
             float maxScroll = ImGui::GetScrollMaxX();
@@ -2479,3 +2479,4 @@ LRESULT WINAPI WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
     }
     return ::DefWindowProcW(hWnd, msg, wParam, lParam);
 }
+
