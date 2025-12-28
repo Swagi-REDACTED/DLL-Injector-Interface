@@ -1,0 +1,11 @@
+Folders - done
+Scroll glitch fix - done
+Sealth settings animated - done
+
+error modal - done
+context menu interaction fix - done
+minified browser modal - done
+copy .cock - todo
+reset hyperspace - done
+
+we need to continue fixing my gui to perfect it, i noticed that the search bar in the image selection modal and file browser modal doesnt work it correctly should work 1:1 like the main search bar, also I'd like the add item button to shrink away to the left with an animation when in folders and the search bar should fill the space there to not confuse the user to think they can add items when in folders(they can but it just goes to home anyway), and lastly when in a folder a new button should pop in with a grow from the right style animation directly to the right of the "time sort" which should say "Reset Hyperspace(Rotate/refresh icon)" using this icon "#define ICON_FA_ARROWS_ROTATE" when clicked it should open another new modal thats exactly like the error modal but with two buttons it should say "Confirming this action will reset the linkage of this folder any changes you've made, such as hiding folders and custom sorting will be reset to default", once we fix this and add the new stuff it will be 100% perfected with handling and usage
